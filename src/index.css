@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-slider{
+  position: relative;
+  width: 90%;
+  height: 85%;
+
+}
+
+.image-slider:hover button{
+  display: block;
+}
+
+.image-slider button{
+  display: none;
+  font-size: 2rem;
+  background: none;
+  color: white;
+  opacity: .6;
+  border: none;
+}
+
+.image-slider button:hover{
+  opacity: .3;
+}
+
+
